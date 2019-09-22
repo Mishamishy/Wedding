@@ -1,0 +1,57 @@
+.footer
+    display: block
+    width: 100%
+    background-color: rgba(#62836e,.78)
+    font-family: 'Comfortaa', cursive
+    &-couple
+        display: flex
+        justify-content: space-around
+        &__title
+            a
+                text-decoration: none
+                color: rgba(#fff, 0.9)
+                position: relative
+                &:before
+                    content: ''
+                    bottom: 0
+                    left: 0
+                    position: absolute
+                    width: 0%
+                    height: 1px
+                    background-color: #fff
+                    transition: .2s linear
+                &:hover
+                    cursor: pointer
+                    &:before
+                        width: 100%
+    &-heart
+        color: #fff
+        font-size: 25px
+@media (max-width: 420px)
+ .footer
+    display: block
+    width: 100%
+    background-color: rgba(#62836e,.78)
+    font-family: 'Comfortaa', cursive
+    &-couple
+        display: flex
+        justify-content: space-around
+        &__title
+            a
+                text-decoration: none
+                color: rgba(#fff, 0.9)
+                position: relative
+                font-size: 13px
+                &:before
+                    content: ''
+                    bottom: 0
+                    left: 0
+                    position: absolute
+                    width: 0%
+                    height: 1px
+                    background-color: #fff
+                    transition: .2s linear
+                &:hover
+                    cursor: pointer
+                    &:before
+                        width: 100%

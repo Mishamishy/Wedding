@@ -1,0 +1,96 @@
+.faq
+    margin-top: 100px
+    font-family: '9404',sans-serif
+    text-align: center
+    &-title
+        position: relative
+        margin-top: 35px
+        text-align: center
+        font-family: 'Comfortaa', cursive
+        font-size: 40px
+        color: rgba(#62836e,1.5)
+        font-weight: normal
+        &:after
+            content: ''
+            height: 1px
+            width: 140px
+            background-color: #333
+            position: absolute
+            left: 50%
+            margin-left: -70px
+            bottom: -20px
+    &-question
+        list-style: none
+        &__before
+            font-size: 27px
+            color: #aaa
+            text-transform: uppercase
+            font-weight: bold
+        &__text
+            font-size: 24px
+        &:after
+            content: '...'
+            display: block
+            line-height: 1
+            color: #aaa
+            font-size: 30px
+    &-answer
+        font-size: 24px
+        list-style: none
+        margin-top: 10px
+    &-image
+        display: block
+        margin: 0 auto
+        margin-top: 20px
+        width: 50%
+        border: 1px solid #62836e
+
+@media (max-width: 420px)
+ .faq
+    margin-top: 40px
+    font-family: '9404',sans-serif
+    text-align: center
+    &-title
+        position: relative
+        margin-top: 35px
+        text-align: center
+        font-family: 'Comfortaa', cursive
+        font-size: 20px
+        color: rgba(#62836e,1.5)
+        font-weight: normal
+        &:after
+            content: ''
+            height: 1px
+            width: 140px
+            background-color: #333
+            position: absolute
+            left: 50%
+            margin-left: -70px
+            bottom: -20px
+            margin-bottom: 10px
+    &-question
+        list-style: none
+        &__before
+            font-size: 27px
+            color: #aaa
+            text-transform: uppercase
+            font-weight: bold
+        &__text
+            font-size: 24px
+        &:after
+            content: '...'
+            display: block
+            line-height: 1
+            color: #aaa
+            font-size: 30px
+    &-answer
+        font-size: 24px
+        list-style: none
+        margin-top: 10px
+    &-image
+        display: block
+        margin: 20px auto
+        margin-top: 45px
+        width: 100%
+        border: 1px solid #62836e
+

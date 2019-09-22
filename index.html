@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <title>Наша свадьба</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="menu">
+                    <div class="container">
+                        <nav class="menu__nav">
+                            <a href="#couple" class="menu__link">Наша пара</a>
+                            <a href="#invitation" class="menu__link">Приглашение</a>
+                            <a href="#dresscode" class="menu__link">Дресс-код</a>
+                            <a href="#adress" class="menu__link">Место проведения</a>
+                            <a href="#moments" class="menu__link">Счастливые моменты</a>
+                        </nav>
+                    </div>
+                    <!-- /.container -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="my_couple" id="couple">
+        <div class="container">
+            <h1 class="my_couple-title">Валерий & Оксана</h1>
+            <div class="countdown">
+                <script src="//megatimer.ru/get/81b0896d5709a2b4dac459e667a44c3d.js"></script>
+            </div>
+            <h3 class="my_couple-subtitle">Дорогие друзья! <br> Ждем Вас <b>28 сентября 2019 года</b> на наш праздник
+            </h3>
+        </div>
+    </section>
+    <section class="guests" id="invitation">
+        <div class="container">
+            <div class="guests-title">
+                <h3>Внимание! Attention! Achtung! Аttenzione!</h3>
+            </div>
+            <div class="guests-invitation">
+                <h4>
+                    Спешим донести до всех важную новость!
+                </h4>
+                <p> <b>28 сентября 2019 года</b> на планете Земля при благоприятном расположении небесных светил и в
+                    результате большой и взаимной любви между Валерой и Оксаной родится новый очаг семейной радости и
+                    счастья. <br> Состояние влюблённых типично: пульс нестабильный, блеск в глазах, повышенная
+                    нервозность, возбужденные лица, отсутствие аппетита, отказ жить друг без друга. По мнению медиков,
+                    эти симптомы являются прямыми показаниями к <br>
+                    <b>долгой и счастливой семейной жизни</b> .</p>
+            </div>
+            <div class="guests-accept">
+                <div class="guests-accept__wrap">
+                    <h4 class="guests-title">Подтвердите свое присутствие</h4>
+                    <form class="guests-form" action="send.php" method="POST">
+                        <input class="guests-form__first" type="text" name="first_name" placeholder="Введите имя"> <br>
+
+                        <input class="guests-form__second" type="text" name="second_name" placeholder="Введите фамилию">
+                        <br>
+
+                        <input class="guests-form__email" type="text" name="email" placeholder="Введите телефон"> <br>
+                        <input type="submit" name="submit" value="Подтвердить присутствие"> <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="faq" id="dresscode">
+            <div class="container">
+                <h3 class="faq-title">Чтобы тебе было легче определиться с вечерним нарядом, мы подготовили для тебя
+                    цветовую палитру нашего дня</h3>
+                <img class="faq-image" src="images/colors/1.png" alt="">
+
+                <h3 class="faq-title">Также мы будем рады, если вы поддержите нашу идею - вместо цветов бутылочку вина в
+                    нашу семейную коллекцию.</h3>
+                <img class="faq-image" src="images/colors/2.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div class="location" id="adress">
+            <div class="container">
+                <h3 class="location-title">Место проведения мероприятия</h3>
+                <div class="location-schedule">
+                    <h4>Вы, должны увидеть всё своими глазами <b>в 16 часов 00 минут</b> в ресторане «Весенний» по
+                        адресу:
+                    </h4>
+                    <address class="location-schedule__adress"> <a href="#">ДЦ Обводный Двор, Набережная Обводного
+                            канала, <b>199, 2</b> этаж, Санкт-Петербург</a>
+                    </address>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.3525014828404!2d30.283243316004803!3d59.909696981865686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469630f2f5e3ddff%3A0xcba2e68a0bb0556f!2z0J7QsdCy0L7QtNC90YvQuSDQlNCy0L7RgA!5e0!3m2!1sru!2sru!4v1564690818211!5m2!1sru!2sru"
+                    width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="gallery " id="moments">
+            <div class="container">
+                <h3 class="gallery-title">Наши воспоминания</h3>
+                <div class="gallery-photo fotorama" data-nav="thumbs" data-allowfullscreen="true"
+                    data-autoplay="5000 true" data-transition="crossfade" data-transitionduration="2000"
+                    data-loop="true">
+
+                    <img src="images/gallery/1.jpg" alt="Photo">
+                    <img src="images/gallery/2.jpg" alt="Photo">
+                    <img src="images/gallery/3.jpg" alt="Photo">
+                    <img src="images/gallery/4.jpg" alt="Photo">
+                    <img src="images/gallery/5.jpg" alt="Photo">
+                    <img src="images/gallery/6.jpg" alt="Photo">
+
+
+                </div>
+            </div>
+        </section>
+        <section class="coordinator">
+            <div class="container">
+                <h3 class="coordinator-title">По всем вопросам обращаться к нашему свадебному координатору</h3>
+                <div class="coordinator-info">
+                    <div class="coordinator-info__name">
+                        <h4>Листопадова Юлия</h4>
+                        <a href="tel:+7 (981) 155-37-91">+7 (981) 155-37-91</a>
+                    </div>
+                    <img src="images/coordinator/1.jpg" alt="Листопадова Юлия" class="coordinator-info__image">
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-couple">
+                    <h3 class="footer-couple__title"><a href="#couple"> <span class="footer-heart">&#9825;</span>
+                            Валерий & Оксана <span class="footer-heart">&#9825;</span> </a></h3>
+                </div>
+            </div>
+        </foooter>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</body>
+
+</html>
